@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 
+    
+}
+body h1{
+    text-align: center;
+}
+.Pokemon-container{
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    transition: transform 0.6s ease;
+    justify-content: center;
+}
+.card{
+    width: 160px;
+    height: 230px;
+    box-shadow: 0px 1px 5px black;
+    background-color: rgb(230, 238, 209);
+    transition: transform 0.6s ease;
+    border-radius: 8px;
+}
+.card:hover{
+    box-shadow: 0px 2px 20px;
+    transform: translateY(-20px);
+}
+.card img{
+    width: 100%;
+    padding: 20px;
+}
+.card ul{ 
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.card:hover:has(.Electric) img{
+    filter: drop-shadow(0 1px 13px rgb(13, 153, 208));
+}
+.card:hover:has(.one) ul{
+    filter: drop-shadow(0 1px 6px rgb(13, 153, 208));
+}
+
+
+.card:hover:has(.pokemon) img{
+    filter: drop-shadow(0 1px 13px rgb(38, 204, 35));
+}
+.card:hover:has(.two) ul{
+    filter: drop-shadow(0 1px 6px rgb(38, 204, 35));
+}
+
+.card:hover:has(.flying) img{
+    filter: drop-shadow(0 1px 13px rgb(242, 255, 0));
+}
+.card:hover:has(.tre) ul{
+    filter: drop-shadow(0 1px 6px rgb(242, 255, 0));
+}
+
+.card:hover:has(.fire) img{
+    filter: drop-shadow(0 1px 13px rgb(7, 148, 84));
+}
+.card:hover:has(.for) ul{
+    filter: drop-shadow(0 1px 6px rgb(7, 148, 84));
+}
+
+.card:hover:has(.fairy) img{
+    filter: drop-shadow(0 1px 13px rgb(182, 85, 15));
+}
+.card:hover:has(.five) ul{
+    filter: drop-shadow(0 1px 6px rgb(182, 85, 15));
+}
+
+.card:hover:has(.bug) img{
+    filter: drop-shadow(0 1px 13px rgb(192, 22, 113));
+}
+.card:hover:has(.sex) ul{
+    filter: drop-shadow(0 1px 6px rgb(192, 22, 113));
+}
+
+.card:hover:has(.drowzee) img{
+    filter: drop-shadow(0 1px 15px rgb(13, 81, 23));
+}
+.card:hover:has(.seven) ul{
+    filter: drop-shadow(0 1px 6px rgb(13, 81, 23));
+}
+
+.card:hover:has(.electabuzz) img{
+    filter: drop-shadow(0 1px 15px rgb(3, 57, 79));
+}
+.card:hover:has(.eight) ul{
+    filter: drop-shadow(0 1px 6px rgb(3, 57, 79));
+}
+
+.card:hover:has(.electivire) img{
+    filter: drop-shadow(0 1px 15px rgb(55, 198, 93));
+}
+.card:hover:has(.nine) ul{
+    filter: drop-shadow(0 1px 6px rgb(55, 198, 93));
+}
+
+.card:hover:has(.fennekin) img{
+    filter: drop-shadow(0 1px 15px rgb(187, 172, 16));
+}
+.card:hover:has(.ten) ul{
+    filter: drop-shadow(0 1px 6px rgb(187, 172, 16));
+}
+
+.card:hover:has(.flareon) img{
+    filter: drop-shadow(0 1px 15px rgb(255, 2, 175));
+}
+.card:hover:has(.eleven) ul{
+    filter: drop-shadow(0 1px 6px rgb(255, 2, 175));
+}
+
+.card:hover:has(.galvantula) img{
+    filter: drop-shadow(0 1px 15px rgb(223, 165, 7));
+}
+.card:hover:has(.twelve) ul{
+    filter: drop-shadow(0 1px 6px rgb(223, 165, 7));
+}
+
+.card:hover:has(.girafarig) img{
+    filter: drop-shadow(0 1px 15px rgb(212, 47, 179));
+}
+.card:hover:has(.ternteen) ul{
+    filter: drop-shadow(0 1px 6px rgb(212, 47, 179));
+}
+
+.card:hover:has(.pichu) img{
+    filter: drop-shadow(0 1px 15px rgb(255, 251, 0));
+}
+.card:hover:has(.fourth) ul{
+    filter: drop-shadow(0 1px 6px rgb(255, 251, 0));
+}
+
+.card:hover:has(.pikachu) img{
+    filter: drop-shadow(0 1px 15px rgb(234, 76, 197));
+}
+.card:hover:has(.fifth) ul{
+    filter: drop-shadow(0 1px 6px rgb(234, 76, 197));
+}
+
+.card:hover:has(.hariyama) img{
+    filter: drop-shadow(0 1px 15px rgb(209, 234, 66));
+}
+.card:hover:has(.sext) ul{
+    filter: drop-shadow(0 1px 6px rgb(209, 234, 66));
+}
+
+
+.card:hover:has(.sandshrew) img{
+    filter: drop-shadow(0 1px 15px rgb(3, 246, 128));
+}
+.card:hover:has(.seventh) ul{
+    filter: drop-shadow(0 1px 6px rgb(3, 246, 128));
+}
+
+.card:hover:has(.kadabra) img{
+    filter: drop-shadow(0 1px 15px rgb(2, 73, 253));
+}
+.card:hover:has(.eghtk) ul{
+    filter: drop-shadow(0 1px 6px rgb(2, 73, 253));
+}
+
+.card:hover:has(.scraggy) img{
+    filter: drop-shadow(0 1px 15px rgb(202, 0, 172));
+}
+.card:hover:has(.nineth) ul{
+    filter: drop-shadow(0 1px 6px rgb(202, 0, 172));
+}
+
+.card:hover:has(.quilava) img{
+    filter: drop-shadow(0 1px 15px rgb(255, 0, 0));
+}
+.card:hover:has(.tenth) ul{
+    filter: drop-shadow(0 1px 6px rgb(255, 0, 0));
+}
+
+.card:hover:has(.raichu) img{
+    filter: drop-shadow(0 1px 15px rgb(24, 255, 93));
+}
+.card:hover:has(.twentyone) ul{
+    filter: drop-shadow(0 1px 6px rgb(24, 255, 93));
+}
+
+.card:hover:has(.heliolisk) img{
+    filter: drop-shadow(0 1px 15px rgb(217, 255, 47));
+}
+.card:hover:has(.twentyto) ul{
+    filter: drop-shadow(0 1px 6px rgb(217, 255, 47));
+}
+
+.card:hover:has(.monferno) img{
+    filter: drop-shadow(0 1px 15px rgb(247, 3, 186));
+}
+.card:hover:has(.twentytree) ul{
+    filter: drop-shadow(0 1px 6px rgb(247, 3, 186));
+}
+
+.card:hover:has(.morpeko-full-belly) img{
+    filter: drop-shadow(0 1px 15px rgb(240, 255, 27));
+}
+.card:hover:has(.twentyfour) ul{
+    filter: drop-shadow(0 1px 6px rgb(240, 255, 27));
+}
+
+.card:hover:has(.helioptile) img{
+    filter: drop-shadow(0 1px 15px rgb(0, 166, 243));
+}
+.card:hover:has(.twentyfive) ul{
+    filter: drop-shadow(0 1px 6px rgb(0, 166, 243));
+}
+
+
+
+
+
+
+
+
